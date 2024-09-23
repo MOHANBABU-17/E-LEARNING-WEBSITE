@@ -1,0 +1,201 @@
+body {
+    background-color: #F7F7F7; /* Light grey background */
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF; /* White */
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#navbar a {
+    margin: 10px;
+    font-size: 21px;
+    text-decoration: none;
+    color: #333333; /* Dark slate grey */
+    transition: 0.2s;
+}
+
+#navbar a:hover {
+    color: #2EC4B6; /* Light teal on hover */
+}
+
+#logo {
+    background-image: url('logo2.jpeg');
+    height: 60px;
+    width: 85px;
+    background-size: cover;
+    margin-right: 310px;
+}
+
+#login, #signup {
+    margin-left: 10px;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    background-color: #2EC4B6; /* Primary teal */
+    color: white;
+    border-radius: 2rem;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+#login:hover, #signup:hover {
+    background-color: #FF8F70; /* Light coral on hover */
+}
+
+#pic {
+    background-image: url('learning-by-doing-1.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+#pic p {
+    font-size: 50px;
+    color: black;
+    font-family: cursive;
+    font-weight: 900;
+    margin-left: 990px;
+    margin-top: 90px;
+}
+
+#explore {
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    background-color: #2EC4B6; /* Primary teal */
+    color: white;
+    margin-left: 1000px;
+    margin-top: -9px;
+    border: none;
+    border-radius: 3rem;
+    transition: background-color 0.2s;
+}
+
+#explore:hover {
+    background-color: #FF8F70; /* Light coral */
+    transform: scale(1.02);
+}
+
+p {
+    color: #333333; /* Dark slate grey */
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#second a {
+    color: #333333; /* Dark slate grey */
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.box {
+    height: 100px;
+    width: 160px;
+    background-color: #FF6F61; /* Coral */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    transition: transform 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+#second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#third {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#third a {
+    color: #333333; /* Dark slate grey */
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 15px;
+    margin-top: 18px;
+}
+
+.boxes {
+    height: 180px;
+    width: 310px;
+    background-color: #FFFFFF; /* White */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #2EC4B6; /* Teal border */
+    border-radius: 1rem;
+    transition: transform 0.2s;
+}
+
+.boxes:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+#last {
+    background-color: #FFFFFF; /* White */
+}
+
+#last p {
+    color: #333333; /* Dark slate grey */
+}
+
+#last button {
+    background-color: #2EC4B6; /* Primary teal */
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 1rem;
+    font-size: 15px;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+#last button:hover {
+    background-color: #FF8F70; /* Light coral on hover */
+}
+
+#last a p {
+    color: #333333; /* Dark slate grey */
+    font-size: large;
+    font-weight: 200;
+}
+
+#footer {
+    background-color: #333333; /* Dark slate grey */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#footer p {
+    font-size: 19px;
+    margin: 8px;
+    color: #FFFFFF; /* White text */
+}
